@@ -20,5 +20,7 @@
       </contents>
     </eAnnotations>
   </LogicalDataModel:Package>
-  <LogicalDataModel:Entity xmi:id="_F9iqQEhaEeWMf6iyyTF2AQ" name="Entity1" package="_BOEqcEhaEeWMf6iyyTF2AQ"/>
+  <LogicalDataModel:Entity xmi:id="_F9iqQEhaEeWMf6iyyTF2AQ" name="Entity1" package="_BOEqcEhaEeWMf6iyyTF2AQ">
+    <attributes xmi:id="_JZ-U4EhaEeWMf6iyyTF2AQ" name="Attribute1" dataType="CHAR(5)"/>
+  </LogicalDataModel:Entity>
 </xmi:XMI>
