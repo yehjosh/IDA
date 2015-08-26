@@ -23,6 +23,7 @@
   <LogicalDataModel:Entity xmi:id="_F9iqQEhaEeWMf6iyyTF2AQ" name="Entity1" package="_BOEqcEhaEeWMf6iyyTF2AQ">
     <attributes xmi:id="_JZ-U4EhaEeWMf6iyyTF2AQ" name="Attribute1" dataType="CHAR(5)"/>
     <attributes xmi:id="_Mv0v0EqeEeW8jIHpEDDnfw" name="Attribute2" dataType="CHAR(5)"/>
+    <attributes xmi:id="_EsdLoEwlEeWOA_28n3GQ1Q" name="Attribute3" dataType="CHAR(5)"/>
   </LogicalDataModel:Entity>
   <LogicalDataModel:Entity xmi:id="_Ukjs4EqdEeWMf6iyyTF2AQ" name="Entity2" package="_BOEqcEhaEeWMf6iyyTF2AQ">
     <attributes xmi:id="_k-p5EEqjEeWMf6iyyTF2AQ" name="Attribute1" dataType="CHAR(5)"/>
