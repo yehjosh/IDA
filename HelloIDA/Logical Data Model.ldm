@@ -53,5 +53,6 @@
   <LogicalDataModel:Entity xmi:id="_Ukjs4EqdEeWMf6iyyTF2AQ" name="Entity2" package="_BOEqcEhaEeWMf6iyyTF2AQ">
     <attributes xmi:id="_k-p5EEqjEeWMf6iyyTF2AQ" name="Attribute1" dataType="CHAR(5)"/>
     <attributes xmi:id="_yeeioFDiEeW7uJVjj3hDdg" name="Attribute2" dataType="CHAR(5)"/>
+    <attributes xmi:id="_GGgf4FDoEeW7uJVjj3hDdg" name="Attribute3" dataType="CHAR(5)"/>
   </LogicalDataModel:Entity>
 </xmi:XMI>
