@@ -54,5 +54,6 @@
     <attributes xmi:id="_k-p5EEqjEeWMf6iyyTF2AQ" name="Attribute1" dataType="CHAR(5)"/>
     <attributes xmi:id="_yeeioFDiEeW7uJVjj3hDdg" name="Attribute2" dataType="NUMERIC(10,0)"/>
     <attributes xmi:id="_GGgf4FDoEeW7uJVjj3hDdg" name="Attribute3" dataType="CHAR(5)"/>
+    <attributes xmi:id="_nri_AFD3EeW7uJVjj3hDdg" name="Attribute4" dataType="INTEGER"/>
   </LogicalDataModel:Entity>
 </xmi:XMI>
