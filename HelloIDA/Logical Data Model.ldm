@@ -54,6 +54,8 @@
     <attributes xmi:id="_k-p5EEqjEeWMf6iyyTF2AQ" name="Attribute1" dataType="CHAR(5)"/>
     <attributes xmi:id="_yeeioFDiEeW7uJVjj3hDdg" name="Attribute2" dataType="NUMERIC(10,0)"/>
     <attributes xmi:id="_GGgf4FDoEeW7uJVjj3hDdg" name="Attribute3" dataType="CHAR(5)"/>
-    <attributes xmi:id="_nri_AFD3EeW7uJVjj3hDdg" name="Attribute4" dataType="INTEGER"/>
+    <attributes xmi:id="_nri_AFD3EeW7uJVjj3hDdg" name="Attribute4" dataType="DATE"/>
+    <attributes xmi:id="_X8I7UFEBEeW7uJVjj3hDdg" name="Attribute5" dataType="CHAR(5)"/>
+    <attributes xmi:id="_YjeoIFEBEeW7uJVjj3hDdg" name="Attribute6" dataType="CHAR(5)"/>
   </LogicalDataModel:Entity>
 </xmi:XMI>
