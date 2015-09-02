@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
 <xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore">
-  <LogicalDataModel:Package xmi:id="_wnXz0FGiEeWYjrY_PLxCPw" name="Package1" targetNamespace="Domain Model.ddm" namespaceSupported="true" contents="_yhk2sFGiEeWYjrY_PLxCPw"/>
+  <LogicalDataModel:Package xmi:id="_wnXz0FGiEeWYjrY_PLxCPw" name="Package1" targetNamespace="Domain Model.ddm" namespaceSupported="true" contents="_yhk2sFGiEeWYjrY_PLxCPw _QgdWMFGsEeWYjrY_PLxCPw"/>
   <LogicalDataModel:AtomicDomain xmi:id="_yhk2sFGiEeWYjrY_PLxCPw" name="AtomicDomain1" package="_wnXz0FGiEeWYjrY_PLxCPw" namespace="Domain Model.ddm/Package1" baseType="CHAR(5)"/>
+  <LogicalDataModel:AtomicDomain xmi:id="_QgdWMFGsEeWYjrY_PLxCPw" name="AtomicDomain2" package="_wnXz0FGiEeWYjrY_PLxCPw" namespace="Domain Model.ddm/Package1" baseType="CHAR(5)"/>
 </xmi:XMI>
