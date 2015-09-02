@@ -23,5 +23,8 @@
   <LogicalDataModel:Entity xmi:id="_ydSd8FExEeW2Ku5WOUVR0w" name="Entity1" package="_xUebwFExEeW2Ku5WOUVR0w">
     <attributes xmi:id="_1dbHUFGjEeWYjrY_PLxCPw" name="Attribute1" dataType="Domain Model.ddm/Package1/AtomicDomain1"/>
   </LogicalDataModel:Entity>
-  <LogicalDataModel:Entity xmi:id="_YXRbEFGkEeW2beaLjS9EBw" name="Entity2" package="_xUebwFExEeW2Ku5WOUVR0w"/>
+  <LogicalDataModel:Entity xmi:id="_YXRbEFGkEeW2beaLjS9EBw" name="Entity2" package="_xUebwFExEeW2Ku5WOUVR0w">
+    <attributes xmi:id="_TTaNsFGmEeW2beaLjS9EBw" name="Attribute1" dataType="CHAR(5)"/>
+    <attributes xmi:id="_Z0VkEFGmEeW2beaLjS9EBw" name="Attribute2" dataType="INTEGER"/>
+  </LogicalDataModel:Entity>
 </xmi:XMI>
