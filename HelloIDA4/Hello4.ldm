@@ -22,5 +22,6 @@
   </LogicalDataModel:Package>
   <LogicalDataModel:Entity xmi:id="_ydSd8FExEeW2Ku5WOUVR0w" name="Entity1" package="_xUebwFExEeW2Ku5WOUVR0w">
     <attributes xmi:id="_1dbHUFGjEeWYjrY_PLxCPw" name="Attribute1" dataType="Domain Model.ddm/Package1/AtomicDomain1"/>
+    <attributes xmi:id="_o-mHwFGmEeWYjrY_PLxCPw" name="Attribute2" dataType="CHAR(5)"/>
   </LogicalDataModel:Entity>
 </xmi:XMI>
