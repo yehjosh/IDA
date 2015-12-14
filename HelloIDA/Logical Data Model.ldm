@@ -48,15 +48,15 @@
   </LogicalDataModel:Package>
   <LogicalDataModel:Entity xmi:id="_F9iqQEhaEeWMf6iyyTF2AQ" name="Entity1" package="_BOEqcEhaEeWMf6iyyTF2AQ">
     <attributes xmi:id="_JZ-U4EhaEeWMf6iyyTF2AQ" name="Attribute1" dataType="CHAR(5)"/>
-    <attributes xmi:id="_w_BiQEwlEeWfJYsrgPqF4A" name="Attribute3" dataType="INTEGER"/>
+    <attributes xmi:id="_w_BiQEwlEeWfJYsrgPqF4A" name="Attribute3" dataType="NUMERIC(10,0)"/>
   </LogicalDataModel:Entity>
   <LogicalDataModel:Entity xmi:id="_Ukjs4EqdEeWMf6iyyTF2AQ" name="Entity2" package="_BOEqcEhaEeWMf6iyyTF2AQ">
     <attributes xmi:id="_k-p5EEqjEeWMf6iyyTF2AQ" name="Attribute1" dataType="CHAR(5)"/>
-    <attributes xmi:id="_yeeioFDiEeW7uJVjj3hDdg" name="Attribute2" dataType="NUMERIC(10,0)"/>
     <attributes xmi:id="_GGgf4FDoEeW7uJVjj3hDdg" name="Attribute3" dataType="INTEGER"/>
     <attributes xmi:id="_nri_AFD3EeW7uJVjj3hDdg" name="Attribute4" dataType="DATE"/>
     <attributes xmi:id="_X8I7UFEBEeW7uJVjj3hDdg" name="Attribute5" dataType="CHAR(5)"/>
     <attributes xmi:id="_YjeoIFEBEeW7uJVjj3hDdg" name="Attribute6" dataType="CHAR(5)"/>
     <attributes xmi:id="_yNUJEFEBEeW2Ku5WOUVR0w" name="Attribute10" dataType="CHAR(5)"/>
+    <attributes xmi:id="_mdVEcKKxEeWpUbkD-eZXCA" name="Attribute2" dataType="CHAR(5)"/>
   </LogicalDataModel:Entity>
 </xmi:XMI>
