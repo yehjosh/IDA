@@ -20,5 +20,8 @@
       </contents>
     </eAnnotations>
   </LogicalDataModel:Package>
-  <LogicalDataModel:Entity xmi:id="_vNpxYFGuEeWYjrY_PLxCPw" name="employee" package="_nV2HoFGuEeWYjrY_PLxCPw"/>
+  <LogicalDataModel:Entity xmi:id="_vNpxYFGuEeWYjrY_PLxCPw" name="employee" package="_nV2HoFGuEeWYjrY_PLxCPw">
+    <attributes xmi:id="_8OKwcPU4EeWjdL9YwkPs_g" name="empno" dataType="CHAR(5)"/>
+    <attributes xmi:id="_9tiRcPU4EeWjdL9YwkPs_g" name="empname" dataType="CHAR(5)"/>
+  </LogicalDataModel:Entity>
 </xmi:XMI>
