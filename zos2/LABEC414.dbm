@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:SQLAccessControl="http:///org/eclipse/datatools/modelbase/sql/accesscontrol.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:zSeries="http:///com/ibm/db/models/db2/zSeries.ecore">
+  <zSeries:ZSeriesDatabase xmi:id="_g7YMAAyiEea-FaxgEqpjlA" name="LABEC414" vendor="DB2 UDB zSeries" version="V10 (New-Function Mode)" schemas="_idAW0AyiEea-FaxgEqpjlA" authorizationIds="_idA98AyiEea-FaxgEqpjlA _idBk_wyiEea-FaxgEqpjlA" storageGroups="_idCMCQyiEea-FaxgEqpjlA _idCzMwyiEea-FaxgEqpjlA" vcats="_idCMCgyiEea-FaxgEqpjlA" databaseInstances="_idCMAAyiEea-FaxgEqpjlA">
+    <eAnnotations xmi:id="_hHDQgAyiEea-FaxgEqpjlA" source="ConnectionURI">
+      <details xmi:id="_hHD3kAyiEea-FaxgEqpjlA" key="ConnectionKey" value="LABEC414"/>
+    </eAnnotations>
+  </zSeries:ZSeriesDatabase>
+  <DB2Model:DB2Schema xmi:id="_idAW0AyiEea-FaxgEqpjlA" name="NK" indices="_idAW0QyiEea-FaxgEqpjlA _idEBMAyiEea-FaxgEqpjlA _idCzMAyiEea-FaxgEqpjlA _idCzNAyiEea-FaxgEqpjlA _idDaIgyiEea-FaxgEqpjlA _idDaJgyiEea-FaxgEqpjlA _idDaLgyiEea-FaxgEqpjlA _idCMEAyiEea-FaxgEqpjlA" tables="_idA94AyiEea-FaxgEqpjlA _idCzEQyiEea-FaxgEqpjlA _idBk8AyiEea-FaxgEqpjlA _idCMCwyiEea-FaxgEqpjlA" database="_g7YMAAyiEea-FaxgEqpjlA"/>
+  <zSeries:ZSeriesIndex xmi:id="_idAW0QyiEea-FaxgEqpjlA" name="SEQ_NR" description="" Schema="_idAW0AyiEea-FaxgEqpjlA" unique="true" systemGenerated="true" table="_idA94AyiEea-FaxgEqpjlA" close="true" bufferPoolName="BP2     " pieceSize="4194304">
+    <members xmi:id="_idAW0gyiEea-FaxgEqpjlA" column="_idA94QyiEea-FaxgEqpjlA"/>
+    <partitions xmi:id="_idAW0wyiEea-FaxgEqpjlA" primaryQuantity="-1" secondaryQuantity="-1" pctFree="10" limitKey="" storageGroup="_idCMCQyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesIndex>
+  <zSeries:ZSeriesTable xmi:id="_idA94AyiEea-FaxgEqpjlA" name="TNK17010" description="" label="IFAC_APPL" privileges="_idA-DwyiEea-FaxgEqpjlA _idA-LQyiEea-FaxgEqpjlA _idA99AyiEea-FaxgEqpjlA _idA-dQyiEea-FaxgEqpjlA _idA-FQyiEea-FaxgEqpjlA _idA-UQyiEea-FaxgEqpjlA _idA-HgyiEea-FaxgEqpjlA _idA-bwyiEea-FaxgEqpjlA _idA-bAyiEea-FaxgEqpjlA _idA-BgyiEea-FaxgEqpjlA _idA-cgyiEea-FaxgEqpjlA _idA-JAyiEea-FaxgEqpjlA _idA-GAyiEea-FaxgEqpjlA _idA-MAyiEea-FaxgEqpjlA _idA-YwyiEea-FaxgEqpjlA _idA-OQyiEea-FaxgEqpjlA" schema="_idAW0AyiEea-FaxgEqpjlA" index="_idAW0QyiEea-FaxgEqpjlA _idEBMAyiEea-FaxgEqpjlA" referencingForeignKeys="_idCzKQyiEea-FaxgEqpjlA" editProc="" validProc="" partitionBySize="true" partitionSizeLimit="4" tableSpace="_idCMAwyiEea-FaxgEqpjlA">
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idA94QyiEea-FaxgEqpjlA" name="SEQ_NR" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_idA94gyiEea-FaxgEqpjlA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idA94wyiEea-FaxgEqpjlA" name="NM" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idA95AyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="20" characterSet="_idEBMwyiEea-FaxgEqpjlA"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idA95QyiEea-FaxgEqpjlA" name="CRE_TS" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_idA95gyiEea-FaxgEqpjlA" name="TIMESTAMP" primitiveType="TIMESTAMP" fractionalSecondsPrecision="6"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idA95wyiEea-FaxgEqpjlA" name="CRE_USR_NR" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idA96AyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="8" characterSet="_idEBNAyiEea-FaxgEqpjlA"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idA96QyiEea-FaxgEqpjlA" name="UPD_TS" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_idA96gyiEea-FaxgEqpjlA" name="TIMESTAMP" primitiveType="TIMESTAMP" fractionalSecondsPrecision="6"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idA96wyiEea-FaxgEqpjlA" name="UPD_USR_NR" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idA97AyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="8" characterSet="_idEBNQyiEea-FaxgEqpjlA"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idA97QyiEea-FaxgEqpjlA" name="DSC" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idA97gyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="50" characterSet="_idEBNgyiEea-FaxgEqpjlA"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_idA97wyiEea-FaxgEqpjlA" name="SEQ_NR" members="_idA94QyiEea-FaxgEqpjlA" ForeignKey="_idCzKQyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesTable>
+  <SQLAccessControl:User xmi:id="_idA98AyiEea-FaxgEqpjlA" name="NK" Database="_g7YMAAyiEea-FaxgEqpjlA" grantedPrivilege="_idA98QyiEea-FaxgEqpjlA _idA99AyiEea-FaxgEqpjlA _idA99wyiEea-FaxgEqpjlA _idA9-gyiEea-FaxgEqpjlA _idA-AwyiEea-FaxgEqpjlA _idA-DAyiEea-FaxgEqpjlA _idA-DwyiEea-FaxgEqpjlA _idA-EgyiEea-FaxgEqpjlA _idA-FQyiEea-FaxgEqpjlA _idA-HgyiEea-FaxgEqpjlA _idA-IQyiEea-FaxgEqpjlA _idA-KgyiEea-FaxgEqpjlA _idA-LQyiEea-FaxgEqpjlA _idA-QgyiEea-FaxgEqpjlA _idA-RQyiEea-FaxgEqpjlA _idA-SwyiEea-FaxgEqpjlA _idA-TgyiEea-FaxgEqpjlA _idA-UQyiEea-FaxgEqpjlA _idA-YAyiEea-FaxgEqpjlA _idA-aQyiEea-FaxgEqpjlA _idA-bwyiEea-FaxgEqpjlA _idA-dQyiEea-FaxgEqpjlA _idA-ewyiEea-FaxgEqpjlA _idA-fgyiEea-FaxgEqpjlA">
+    <receivedPrivilege xmi:id="_idA98QyiEea-FaxgEqpjlA" grantable="true" action="ALTER" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA98gyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA98wyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA99AyiEea-FaxgEqpjlA" grantable="true" action="INDEX" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA99QyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA99gyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA99wyiEea-FaxgEqpjlA" grantable="true" action="INDEX" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA9-AyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA9-QyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA9-gyiEea-FaxgEqpjlA" grantable="true" action="SELECT" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA9-wyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA9_AyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA9_QyiEea-FaxgEqpjlA" grantable="true" action="DELETE" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA9_gyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA9_wyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-AAyiEea-FaxgEqpjlA" grantable="true" action="TRIGGER" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-AQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-AgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-AwyiEea-FaxgEqpjlA" grantable="true" action="DELETE" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-BAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-BQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-BgyiEea-FaxgEqpjlA" grantable="true" action="INDEX" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-BwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-CAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-CQyiEea-FaxgEqpjlA" grantable="true" action="REFERENCES" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-CgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-CwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-DAyiEea-FaxgEqpjlA" grantable="true" action="UPDATE" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-DQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-DgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-DwyiEea-FaxgEqpjlA" grantable="true" action="ALTER" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-EAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-EQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-EgyiEea-FaxgEqpjlA" grantable="true" action="INDEX" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-EwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-FAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-FQyiEea-FaxgEqpjlA" grantable="true" action="SELECT" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-FgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-FwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-GAyiEea-FaxgEqpjlA" grantable="true" action="SELECT" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-GQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-GgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-GwyiEea-FaxgEqpjlA" grantable="true" action="SELECT" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-HAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-HQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-HgyiEea-FaxgEqpjlA" grantable="true" action="UPDATE" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-HwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-IAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-IQyiEea-FaxgEqpjlA" grantable="true" action="TRIGGER" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-IgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-IwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-JAyiEea-FaxgEqpjlA" grantable="true" action="REFERENCES" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-JQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-JgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-JwyiEea-FaxgEqpjlA" grantable="true" action="INDEX" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-KAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-KQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-KgyiEea-FaxgEqpjlA" grantable="true" action="INSERT" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-KwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-LAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-LQyiEea-FaxgEqpjlA" grantable="true" action="DELETE" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-LgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-LwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-MAyiEea-FaxgEqpjlA" grantable="true" action="DELETE" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-MQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-MgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-MwyiEea-FaxgEqpjlA" grantable="true" action="UPDATE" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-NAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-NQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-NgyiEea-FaxgEqpjlA" grantable="true" action="UPDATE" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-NwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-OAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-OQyiEea-FaxgEqpjlA" grantable="true" action="UPDATE" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-OgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-OwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-PAyiEea-FaxgEqpjlA" grantable="true" action="REFERENCES" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-PQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-PgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-PwyiEea-FaxgEqpjlA" grantable="true" action="TRIGGER" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-QAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-QQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-QgyiEea-FaxgEqpjlA" grantable="true" action="DELETE" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-QwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-RAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-RQyiEea-FaxgEqpjlA" grantable="true" action="REFERENCES" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-RgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-RwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-SAyiEea-FaxgEqpjlA" grantable="true" action="SELECT" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-SQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-SgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-SwyiEea-FaxgEqpjlA" grantable="true" action="ALTER" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-TAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-TQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-TgyiEea-FaxgEqpjlA" grantable="true" action="REFERENCES" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-TwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-UAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-UQyiEea-FaxgEqpjlA" grantable="true" action="REFERENCES" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-UgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-UwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-VAyiEea-FaxgEqpjlA" grantable="true" action="DELETE" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-VQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-VgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-VwyiEea-FaxgEqpjlA" grantable="true" action="INSERT" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-WAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-WQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-WgyiEea-FaxgEqpjlA" grantable="true" action="ALTER" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-WwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-XAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-XQyiEea-FaxgEqpjlA" grantable="true" action="INSERT" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-XgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-XwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-YAyiEea-FaxgEqpjlA" grantable="true" action="SELECT" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-YQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-YgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-YwyiEea-FaxgEqpjlA" grantable="true" action="TRIGGER" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-ZAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-ZQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-ZgyiEea-FaxgEqpjlA" grantable="true" action="INDEX" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-ZwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-aAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-aQyiEea-FaxgEqpjlA" grantable="true" action="UPDATE" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-agyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-awyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-bAyiEea-FaxgEqpjlA" grantable="true" action="ALTER" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-bQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-bgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-bwyiEea-FaxgEqpjlA" grantable="true" action="TRIGGER" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-cAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-cQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-cgyiEea-FaxgEqpjlA" grantable="true" action="INSERT" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-cwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-dAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-dQyiEea-FaxgEqpjlA" grantable="true" action="INSERT" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-dgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-dwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-eAyiEea-FaxgEqpjlA" grantable="true" action="ALTER" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-eQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-egyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-ewyiEea-FaxgEqpjlA" grantable="true" action="TRIGGER" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idBk8AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-fAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-fQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idA-fgyiEea-FaxgEqpjlA" grantable="true" action="INSERT" grantor="_idA98AyiEea-FaxgEqpjlA" object="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idA-fwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idA-gAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="false"/>
+      </eAnnotations>
+    </receivedPrivilege>
+  </SQLAccessControl:User>
+  <zSeries:ZSeriesTable xmi:id="_idBk8AyiEea-FaxgEqpjlA" name="TNK17030" description="" label="SWLW_OUTR_IFAC_TXT" privileges="_idA98QyiEea-FaxgEqpjlA _idA-AwyiEea-FaxgEqpjlA _idA99wyiEea-FaxgEqpjlA _idA-KgyiEea-FaxgEqpjlA _idA-YAyiEea-FaxgEqpjlA _idA-TgyiEea-FaxgEqpjlA _idA-aQyiEea-FaxgEqpjlA _idA-ewyiEea-FaxgEqpjlA _idA-VAyiEea-FaxgEqpjlA _idA-ZgyiEea-FaxgEqpjlA _idA-XQyiEea-FaxgEqpjlA _idA-PAyiEea-FaxgEqpjlA _idA-eAyiEea-FaxgEqpjlA _idA-GwyiEea-FaxgEqpjlA _idA-PwyiEea-FaxgEqpjlA _idA-MwyiEea-FaxgEqpjlA" schema="_idAW0AyiEea-FaxgEqpjlA" index="_idDaLgyiEea-FaxgEqpjlA" editProc="" validProc="" partitionBySize="true" partitionSizeLimit="4" tableSpace="_idCMBQyiEea-FaxgEqpjlA">
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idBk8QyiEea-FaxgEqpjlA" name="SWLW_OUTR_IFAC_SEQ_NR" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_idBk8gyiEea-FaxgEqpjlA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idBk8wyiEea-FaxgEqpjlA" name="SNR" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_idBk9AyiEea-FaxgEqpjlA" name="SMALLINT" primitiveType="SMALLINT"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idBk9QyiEea-FaxgEqpjlA" name="RCD_TXT" description="" label="" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idBk9gyiEea-FaxgEqpjlA" name="CLOB" primitiveType="CHARACTER_LARGE_OBJECT" length="10485760" characterSet="_idCzEAyiEea-FaxgEqpjlA"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_idBk9wyiEea-FaxgEqpjlA" name="LNK17032" members="_idBk8QyiEea-FaxgEqpjlA" onDelete="CASCADE" uniqueConstraint="_idCzKAyiEea-FaxgEqpjlA" referencedTable="_idCzEQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBk-AyiEea-FaxgEqpjlA" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_idBk-QyiEea-FaxgEqpjlA" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_idBk-gyiEea-FaxgEqpjlA" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_idBk-wyiEea-FaxgEqpjlA" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_idBk_AyiEea-FaxgEqpjlA" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_idBk_QyiEea-FaxgEqpjlA" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_idBk_gyiEea-FaxgEqpjlA" name="TNK17030_PK" members="_idBk8QyiEea-FaxgEqpjlA _idBk8wyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesTable>
+  <SQLAccessControl:User xmi:id="_idBk_wyiEea-FaxgEqpjlA" name="SYSADM" Database="_g7YMAAyiEea-FaxgEqpjlA" grantedPrivilege="_idBlAAyiEea-FaxgEqpjlA _idBlAwyiEea-FaxgEqpjlA _idA9_QyiEea-FaxgEqpjlA _idBlBgyiEea-FaxgEqpjlA _idBlCQyiEea-FaxgEqpjlA _idA-AAyiEea-FaxgEqpjlA _idA-BgyiEea-FaxgEqpjlA _idA-CQyiEea-FaxgEqpjlA _idBlDAyiEea-FaxgEqpjlA _idA-GAyiEea-FaxgEqpjlA _idA-GwyiEea-FaxgEqpjlA _idA-JAyiEea-FaxgEqpjlA _idA-JwyiEea-FaxgEqpjlA _idBlDwyiEea-FaxgEqpjlA _idBlEgyiEea-FaxgEqpjlA _idBlFQyiEea-FaxgEqpjlA _idA-MAyiEea-FaxgEqpjlA _idA-MwyiEea-FaxgEqpjlA _idA-NgyiEea-FaxgEqpjlA _idA-OQyiEea-FaxgEqpjlA _idA-PAyiEea-FaxgEqpjlA _idA-PwyiEea-FaxgEqpjlA _idA-SAyiEea-FaxgEqpjlA _idA-VAyiEea-FaxgEqpjlA _idA-VwyiEea-FaxgEqpjlA _idBlGAyiEea-FaxgEqpjlA _idA-WgyiEea-FaxgEqpjlA _idBlGwyiEea-FaxgEqpjlA _idA-XQyiEea-FaxgEqpjlA _idBlHgyiEea-FaxgEqpjlA _idA-YwyiEea-FaxgEqpjlA _idA-ZgyiEea-FaxgEqpjlA _idBlIQyiEea-FaxgEqpjlA _idBlJAyiEea-FaxgEqpjlA _idA-bAyiEea-FaxgEqpjlA _idBlJwyiEea-FaxgEqpjlA _idBlKgyiEea-FaxgEqpjlA _idA-cgyiEea-FaxgEqpjlA _idA-eAyiEea-FaxgEqpjlA _idBlLQyiEea-FaxgEqpjlA _idBlMAyiEea-FaxgEqpjlA">
+    <receivedPrivilege xmi:id="_idBlAAyiEea-FaxgEqpjlA" grantable="true" action="STARTDB" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlAQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlAgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlAwyiEea-FaxgEqpjlA" grantable="true" action="LOAD" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlBAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlBQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlBgyiEea-FaxgEqpjlA" grantable="true" action="DBMAINT" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlBwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlCAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlCQyiEea-FaxgEqpjlA" grantable="true" action="REPAIR" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlCgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlCwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlDAyiEea-FaxgEqpjlA" grantable="true" action="REORG" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlDQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlDgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlDwyiEea-FaxgEqpjlA" grantable="true" action="USE" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMCQyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlEAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlEQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlEgyiEea-FaxgEqpjlA" grantable="true" action="STATS" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlEwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlFAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlFQyiEea-FaxgEqpjlA" grantable="true" action="CREATETS" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlFgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlFwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlGAyiEea-FaxgEqpjlA" grantable="true" action="USE" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCzMwyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlGQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlGgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlGwyiEea-FaxgEqpjlA" grantable="true" action="RECOVERDB" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlHAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlHQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlHgyiEea-FaxgEqpjlA" grantable="true" action="DISPLAYDB" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlHwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlIAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlIQyiEea-FaxgEqpjlA" grantable="true" action="DROP" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlIgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlIwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlJAyiEea-FaxgEqpjlA" grantable="true" action="DBADM" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlJQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlJgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlJwyiEea-FaxgEqpjlA" grantable="true" action="CREATETAB" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlKAyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlKQyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlKgyiEea-FaxgEqpjlA" grantable="true" action="IMAGCOPY" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlKwyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlLAyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlLQyiEea-FaxgEqpjlA" grantable="true" action="STOPDB" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlLgyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlLwyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+    <receivedPrivilege xmi:id="_idBlMAyiEea-FaxgEqpjlA" grantable="true" action="DBCTRL" grantor="_idBk_wyiEea-FaxgEqpjlA" object="_idCMAAyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idBlMQyiEea-FaxgEqpjlA" source="PRIVILEGE_PROPERTY">
+        <details xmi:id="_idBlMgyiEea-FaxgEqpjlA" key="PRIVILEGE_SYSTEM_GRANT" value="true"/>
+      </eAnnotations>
+    </receivedPrivilege>
+  </SQLAccessControl:User>
+  <zSeries:ZSeriesDatabaseInstance xmi:id="_idCMAAyiEea-FaxgEqpjlA" name="DNNK17" privileges="_idBlAAyiEea-FaxgEqpjlA _idBlAwyiEea-FaxgEqpjlA _idBlBgyiEea-FaxgEqpjlA _idBlCQyiEea-FaxgEqpjlA _idBlDAyiEea-FaxgEqpjlA _idBlEgyiEea-FaxgEqpjlA _idBlFQyiEea-FaxgEqpjlA _idBlGwyiEea-FaxgEqpjlA _idBlHgyiEea-FaxgEqpjlA _idBlIQyiEea-FaxgEqpjlA _idBlJAyiEea-FaxgEqpjlA _idBlJwyiEea-FaxgEqpjlA _idBlKgyiEea-FaxgEqpjlA _idBlLQyiEea-FaxgEqpjlA _idBlMAyiEea-FaxgEqpjlA" bufferPoolName="BP1" indexBufferPoolName="BP2" memberName="" storageGroup="_idCMCQyiEea-FaxgEqpjlA" database="_g7YMAAyiEea-FaxgEqpjlA">
+    <tablespaces xmi:id="_idCMAQyiEea-FaxgEqpjlA" name="SNK1703L" tablespaceType="LOB" dsSize="4" lockMax="-1" bufferPoolName="BP0" auxTables="_idCMCwyiEea-FaxgEqpjlA">
+      <partitions xmi:id="_idCMAgyiEea-FaxgEqpjlA" useStorageGroup="true" primaryQuantity="-1" secondaryQuantity="-1" trackMod="true" limitKey="" vcat="_idCMCgyiEea-FaxgEqpjlA" storageGroup="_idCMCQyiEea-FaxgEqpjlA"/>
+    </tablespaces>
+    <tablespaces xmi:id="_idCMAwyiEea-FaxgEqpjlA" name="SNK17010" dsSize="4" segSize="32" close="false" maximumRows="255" lockMax="-1" bufferPoolName="BP1" maxPartitions="50" tables="_idA94AyiEea-FaxgEqpjlA">
+      <partitions xmi:id="_idCMBAyiEea-FaxgEqpjlA" number="1" useStorageGroup="true" compress="true" primaryQuantity="-1" secondaryQuantity="-1" trackMod="true" pctFree="10" limitKey="" vcat="_idCMCgyiEea-FaxgEqpjlA" storageGroup="_idCMCQyiEea-FaxgEqpjlA"/>
+    </tablespaces>
+    <tablespaces xmi:id="_idCMBQyiEea-FaxgEqpjlA" name="SNK17031" dsSize="4" segSize="32" close="false" maximumRows="255" lockMax="-1" bufferPoolName="BP1" maxPartitions="50" tables="_idBk8AyiEea-FaxgEqpjlA">
+      <partitions xmi:id="_idCMBgyiEea-FaxgEqpjlA" number="1" useStorageGroup="true" compress="true" primaryQuantity="-1" secondaryQuantity="-1" trackMod="true" pctFree="5" limitKey="" vcat="_idCMCgyiEea-FaxgEqpjlA" storageGroup="_idCMCQyiEea-FaxgEqpjlA"/>
+    </tablespaces>
+    <tablespaces xmi:id="_idCMBwyiEea-FaxgEqpjlA" name="SNK17020" dsSize="4" segSize="32" close="false" maximumRows="255" lockMax="-1" lockSize="ROW" bufferPoolName="BP1" maxPartitions="50" tables="_idCzEQyiEea-FaxgEqpjlA">
+      <partitions xmi:id="_idCMCAyiEea-FaxgEqpjlA" number="1" useStorageGroup="true" compress="true" primaryQuantity="-1" secondaryQuantity="-1" trackMod="true" pctFree="10" limitKey="" vcat="_idCMCgyiEea-FaxgEqpjlA" storageGroup="_idCMCQyiEea-FaxgEqpjlA"/>
+    </tablespaces>
+  </zSeries:ZSeriesDatabaseInstance>
+  <zSeries:ZSeriesStorageGroup xmi:id="_idCMCQyiEea-FaxgEqpjlA" name="GNNK17" privileges="_idBlDwyiEea-FaxgEqpjlA" dataClas="" mgmtClas="" storClas="" vcat="_idCMCgyiEea-FaxgEqpjlA" database="_g7YMAAyiEea-FaxgEqpjlA" databaseInstances="_idCMAAyiEea-FaxgEqpjlA">
+    <volumeIds>XTRA01</volumeIds>
+  </zSeries:ZSeriesStorageGroup>
+  <zSeries:ZSeriesVCAT xmi:id="_idCMCgyiEea-FaxgEqpjlA" name="TESTCAT" database="_g7YMAAyiEea-FaxgEqpjlA"/>
+  <zSeries:ZSeriesAuxiliaryTable xmi:id="_idCMCwyiEea-FaxgEqpjlA" name="TNK1703L" description="" label="" schema="_idAW0AyiEea-FaxgEqpjlA" index="_idCMEAyiEea-FaxgEqpjlA" part="1" column="_idBk9QyiEea-FaxgEqpjlA" tableSpace="_idCMAQyiEea-FaxgEqpjlA">
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCMDAyiEea-FaxgEqpjlA" name="AUXID">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idCMDQyiEea-FaxgEqpjlA" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCMDgyiEea-FaxgEqpjlA" name="AUXVER">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idCMDwyiEea-FaxgEqpjlA" name="CHAR" length="5"/>
+    </columns>
+  </zSeries:ZSeriesAuxiliaryTable>
+  <zSeries:ZSeriesIndex xmi:id="_idCMEAyiEea-FaxgEqpjlA" name="XNK1703X" description="" Schema="_idAW0AyiEea-FaxgEqpjlA" unique="true" table="_idCMCwyiEea-FaxgEqpjlA" padded="true" bufferPoolName="BP2     " pieceSize="4194304">
+    <members xmi:id="_idCMEQyiEea-FaxgEqpjlA" column="_idCMDAyiEea-FaxgEqpjlA"/>
+    <members xmi:id="_idCMEgyiEea-FaxgEqpjlA" column="_idCMDgyiEea-FaxgEqpjlA"/>
+    <partitions xmi:id="_idCMEwyiEea-FaxgEqpjlA" primaryQuantity="-1" secondaryQuantity="-1" pctFree="10" limitKey="" storageGroup="_idCMCQyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesIndex>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idCzEAyiEea-FaxgEqpjlA" CharacterStringDataType="_idBk9gyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesTable xmi:id="_idCzEQyiEea-FaxgEqpjlA" name="TNK17020" description="" label="SWLW_OUTR_IFAC" privileges="_idA-SwyiEea-FaxgEqpjlA _idA-QgyiEea-FaxgEqpjlA _idA-EgyiEea-FaxgEqpjlA _idA-fgyiEea-FaxgEqpjlA _idA9-gyiEea-FaxgEqpjlA _idA-RQyiEea-FaxgEqpjlA _idA-DAyiEea-FaxgEqpjlA _idA-IQyiEea-FaxgEqpjlA _idA-JwyiEea-FaxgEqpjlA _idA-VwyiEea-FaxgEqpjlA _idA-CQyiEea-FaxgEqpjlA _idA-SAyiEea-FaxgEqpjlA _idA-WgyiEea-FaxgEqpjlA _idA9_QyiEea-FaxgEqpjlA _idA-AAyiEea-FaxgEqpjlA _idA-NgyiEea-FaxgEqpjlA" schema="_idAW0AyiEea-FaxgEqpjlA" index="_idCzMAyiEea-FaxgEqpjlA _idCzNAyiEea-FaxgEqpjlA _idDaIgyiEea-FaxgEqpjlA _idDaJgyiEea-FaxgEqpjlA" referencingForeignKeys="_idBk9wyiEea-FaxgEqpjlA" editProc="" validProc="" partitionBySize="true" partitionSizeLimit="4" tableSpace="_idCMBwyiEea-FaxgEqpjlA">
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzEgyiEea-FaxgEqpjlA" name="SEQ_NR" description="" label="SEQ_NR" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_idCzEwyiEea-FaxgEqpjlA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzFAyiEea-FaxgEqpjlA" name="STA_CD" description="" label="STA_CD" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idCzFQyiEea-FaxgEqpjlA" name="CHAR" length="20" characterSet="_idDaIQyiEea-FaxgEqpjlA"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzFgyiEea-FaxgEqpjlA" name="CRE_TS" description="" label="CRE_TS" nullable="false">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_idCzFwyiEea-FaxgEqpjlA" name="TIMESTAMP" primitiveType="TIMESTAMP" fractionalSecondsPrecision="6"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzGAyiEea-FaxgEqpjlA" name="CRE_USR_NR" description="" label="CRE_USR_NR" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idCzGQyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="8" characterSet="_idDaKQyiEea-FaxgEqpjlA"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzGgyiEea-FaxgEqpjlA" name="UPD_TS" description="" label="UPD_TS" nullable="false">
+      <containedType xsi:type="SQLDataTypes:TimeDataType" xmi:id="_idCzGwyiEea-FaxgEqpjlA" name="TIMESTAMP" primitiveType="TIMESTAMP" fractionalSecondsPrecision="6"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzHAyiEea-FaxgEqpjlA" name="UPD_USR_NR" description="" label="UPD_USR_NR" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idCzHQyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="8" characterSet="_idDaKgyiEea-FaxgEqpjlA"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzHgyiEea-FaxgEqpjlA" name="IFAC_APPL_SEQ_NR" description="" label="IFAC_APPL_SEQ_NR" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_idCzHwyiEea-FaxgEqpjlA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzIAyiEea-FaxgEqpjlA" name="ORIG_SYM" description="" label="ORIG_SYM" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idCzIQyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="20" characterSet="_idDaIAyiEea-FaxgEqpjlA"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzIgyiEea-FaxgEqpjlA" name="RCD_TYP" description="" label="RCD_TYP" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idCzIwyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="20" characterSet="_idDaKwyiEea-FaxgEqpjlA"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzJAyiEea-FaxgEqpjlA" name="STA_DSC" description="" label="STA_DSC" defaultValue="NULL">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idCzJQyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="250" characterSet="_idDaLAyiEea-FaxgEqpjlA"/>
+    </columns>
+    <columns xsi:type="zSeries:ZSeriesColumn" xmi:id="_idCzJgyiEea-FaxgEqpjlA" name="MSG_HDR" description="" label="MSG_HDR" nullable="false" defaultValue="SYSTEM_DEFAULT">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_idCzJwyiEea-FaxgEqpjlA" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="3600" characterSet="_idDaLQyiEea-FaxgEqpjlA"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_idCzKAyiEea-FaxgEqpjlA" name="CNK1702A" members="_idCzEgyiEea-FaxgEqpjlA" ForeignKey="_idBk9wyiEea-FaxgEqpjlA"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_idCzKQyiEea-FaxgEqpjlA" name="LNK17021" members="_idCzHgyiEea-FaxgEqpjlA" onDelete="RESTRICT" uniqueConstraint="_idA97wyiEea-FaxgEqpjlA" referencedTable="_idA94AyiEea-FaxgEqpjlA">
+      <eAnnotations xmi:id="_idCzKgyiEea-FaxgEqpjlA" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_idCzKwyiEea-FaxgEqpjlA" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="false"/>
+        <details xmi:id="_idCzLAyiEea-FaxgEqpjlA" key="FK_CHILD_MULTIPLICITY" value="*"/>
+        <details xmi:id="_idCzLQyiEea-FaxgEqpjlA" key="FK_CHILD_ROLE_NAME" value=""/>
+        <details xmi:id="_idCzLgyiEea-FaxgEqpjlA" key="FK_PARENT_MULTIPLICITY" value="0..1"/>
+        <details xmi:id="_idCzLwyiEea-FaxgEqpjlA" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </constraints>
+  </zSeries:ZSeriesTable>
+  <zSeries:ZSeriesIndex xmi:id="_idCzMAyiEea-FaxgEqpjlA" name="XNK1702B" description="" Schema="_idAW0AyiEea-FaxgEqpjlA" table="_idCzEQyiEea-FaxgEqpjlA" bufferPoolName="BP2     " pieceSize="4194304">
+    <members xmi:id="_idCzMQyiEea-FaxgEqpjlA" column="_idCzHgyiEea-FaxgEqpjlA"/>
+    <partitions xmi:id="_idCzMgyiEea-FaxgEqpjlA" primaryQuantity="-1" secondaryQuantity="-1" pctFree="10" limitKey="" storageGroup="_idCzMwyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesIndex>
+  <zSeries:ZSeriesStorageGroup xmi:id="_idCzMwyiEea-FaxgEqpjlA" name="GNNK17X" privileges="_idBlGAyiEea-FaxgEqpjlA" dataClas="" mgmtClas="" storClas="" vcat="_idCMCgyiEea-FaxgEqpjlA" database="_g7YMAAyiEea-FaxgEqpjlA">
+    <volumeIds>XTRA01</volumeIds>
+  </zSeries:ZSeriesStorageGroup>
+  <zSeries:ZSeriesIndex xmi:id="_idCzNAyiEea-FaxgEqpjlA" name="XNK1702C" description="" Schema="_idAW0AyiEea-FaxgEqpjlA" table="_idCzEQyiEea-FaxgEqpjlA" padded="true" bufferPoolName="BP2     " pieceSize="4194304">
+    <members xmi:id="_idCzNQyiEea-FaxgEqpjlA" column="_idCzIAyiEea-FaxgEqpjlA"/>
+    <members xmi:id="_idCzNgyiEea-FaxgEqpjlA" column="_idCzFAyiEea-FaxgEqpjlA"/>
+    <members xmi:id="_idCzNwyiEea-FaxgEqpjlA" column="_idCzEgyiEea-FaxgEqpjlA"/>
+    <partitions xmi:id="_idCzOAyiEea-FaxgEqpjlA" primaryQuantity="-1" secondaryQuantity="-1" pctFree="10" limitKey="" storageGroup="_idCzMwyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesIndex>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idDaIAyiEea-FaxgEqpjlA" CharacterStringDataType="_idCzIQyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idDaIQyiEea-FaxgEqpjlA" CharacterStringDataType="_idCzFQyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesIndex xmi:id="_idDaIgyiEea-FaxgEqpjlA" name="XNK1702D" description="" Schema="_idAW0AyiEea-FaxgEqpjlA" table="_idCzEQyiEea-FaxgEqpjlA" bufferPoolName="BP2     " pieceSize="4194304">
+    <members xmi:id="_idDaIwyiEea-FaxgEqpjlA" column="_idCzFAyiEea-FaxgEqpjlA"/>
+    <members xmi:id="_idDaJAyiEea-FaxgEqpjlA" column="_idCzFgyiEea-FaxgEqpjlA"/>
+    <partitions xmi:id="_idDaJQyiEea-FaxgEqpjlA" primaryQuantity="-1" secondaryQuantity="-1" pctFree="10" limitKey="" storageGroup="_idCzMwyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesIndex>
+  <zSeries:ZSeriesIndex xmi:id="_idDaJgyiEea-FaxgEqpjlA" name="CNK1702A" description="" Schema="_idAW0AyiEea-FaxgEqpjlA" unique="true" systemGenerated="true" table="_idCzEQyiEea-FaxgEqpjlA" close="true" bufferPoolName="BP2     " pieceSize="4194304">
+    <members xmi:id="_idDaJwyiEea-FaxgEqpjlA" column="_idCzEgyiEea-FaxgEqpjlA"/>
+    <partitions xmi:id="_idDaKAyiEea-FaxgEqpjlA" primaryQuantity="-1" secondaryQuantity="-1" pctFree="10" limitKey="" storageGroup="_idCMCQyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesIndex>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idDaKQyiEea-FaxgEqpjlA" CharacterStringDataType="_idCzGQyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idDaKgyiEea-FaxgEqpjlA" CharacterStringDataType="_idCzHQyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idDaKwyiEea-FaxgEqpjlA" CharacterStringDataType="_idCzIwyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idDaLAyiEea-FaxgEqpjlA" CharacterStringDataType="_idCzJQyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idDaLQyiEea-FaxgEqpjlA" CharacterStringDataType="_idCzJwyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesIndex xmi:id="_idDaLgyiEea-FaxgEqpjlA" name="TNK17030_PK" description="" Schema="_idAW0AyiEea-FaxgEqpjlA" unique="true" systemGenerated="true" table="_idBk8AyiEea-FaxgEqpjlA" close="true" bufferPoolName="BP2     " pieceSize="4194304">
+    <members xmi:id="_idDaLwyiEea-FaxgEqpjlA" column="_idBk8QyiEea-FaxgEqpjlA"/>
+    <members xmi:id="_idDaMAyiEea-FaxgEqpjlA" column="_idBk8wyiEea-FaxgEqpjlA"/>
+    <partitions xmi:id="_idDaMQyiEea-FaxgEqpjlA" primaryQuantity="-1" secondaryQuantity="-1" pctFree="10" limitKey="" storageGroup="_idCMCQyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesIndex>
+  <zSeries:ZSeriesIndex xmi:id="_idEBMAyiEea-FaxgEqpjlA" name="XNK1701B" description="" Schema="_idAW0AyiEea-FaxgEqpjlA" unique="true" table="_idA94AyiEea-FaxgEqpjlA" padded="true" bufferPoolName="BP2     " pieceSize="4194304">
+    <members xmi:id="_idEBMQyiEea-FaxgEqpjlA" column="_idA94wyiEea-FaxgEqpjlA"/>
+    <partitions xmi:id="_idEBMgyiEea-FaxgEqpjlA" primaryQuantity="-1" secondaryQuantity="-1" pctFree="10" limitKey="" storageGroup="_idCzMwyiEea-FaxgEqpjlA"/>
+  </zSeries:ZSeriesIndex>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idEBMwyiEea-FaxgEqpjlA" CharacterStringDataType="_idA95AyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idEBNAyiEea-FaxgEqpjlA" CharacterStringDataType="_idA96AyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idEBNQyiEea-FaxgEqpjlA" CharacterStringDataType="_idA97AyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+  <zSeries:ZSeriesCharacterSet xmi:id="_idEBNgyiEea-FaxgEqpjlA" CharacterStringDataType="_idA97gyiEea-FaxgEqpjlA" subtype="FOR_SBCS_DATA"/>
+</xmi:XMI>
