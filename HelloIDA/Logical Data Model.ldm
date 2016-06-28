@@ -30,7 +30,7 @@
             <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rEqcp0wlEeWfJYsrgPqF4A"/>
           </children>
           <styles xsi:type="datanotation:DataListCompartmentStyle" xmi:id="_rEhSsUwlEeWfJYsrgPqF4A" sortingKeys="Natural:Ascending"/>
-          <styles xsi:type="datanotation:TableStyle" xmi:id="_rEhSs0wlEeWfJYsrgPqF4A" fontName="Segoe UI" lineWidth="1"/>
+          <styles xsi:type="datanotation:TableStyle" xmi:id="_rEhSs0wlEeWfJYsrgPqF4A" fontName="Segoe UI" fillColor="10265827" lineWidth="1"/>
           <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rEhSskwlEeWfJYsrgPqF4A" x="2645" y="1799"/>
         </children>
         <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_BOEqdUhaEeWMf6iyyTF2AQ"/>
